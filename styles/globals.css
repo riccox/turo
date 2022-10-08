@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-size: 16px;
+}
+
+html, body {
+    @apply bg-white text-black dark:text-white dark:bg-black ;
+    @apply m-0 p-0 border-0 !important;
+    @apply text-base font-turo;
+    @apply flex flex-col transition-colors duration-300 ease-in-out;
+}
+
+a {
+    @apply text-inherit;
+}
+
+* {
+    @apply box-border;
+}
+
+.page {
+    @apply h-screen w-screen flex flex-col;
+}

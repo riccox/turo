@@ -1,0 +1,7 @@
+export enum StatusCode {
+  UNKNOWN_FAIL = 0,
+  SUCCESS = 1,
+  USER_NOT_EXIST,
+  WRONG_PASSWORD,
+  INITIAL_SETUP_ALREADY,
+}
